@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L  ",
+    "LL ",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:spruce_logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_stairs",
+    "count": 16
+  }
+}

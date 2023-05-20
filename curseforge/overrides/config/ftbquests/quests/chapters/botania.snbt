@@ -1,0 +1,151 @@
+{
+	id: "20AAA0996D3F54EF"
+	group: ""
+	order_index: 1
+	filename: "botania"
+	title: "Botany"
+	icon: "botania:light_blue_mystical_flower"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "My apothecary"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Craft an Apothecary. It can be filled with a bowl of water."
+			description: ["Botania is a mod with endless possibilities. I will only explain the most important things here."]
+			dependencies: ["51833F1F29BECAC5"]
+			id: "71AB0633FD9368D3"
+			tasks: [{
+				id: "730A61119BC8AE14"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			title: "The Orechid"
+			x: 1.5d
+			y: 0.5d
+			subtitle: "Craft an Orechid in your Petal Apothecary."
+			dependencies: ["71AB0633FD9368D3"]
+			id: "21E3B83BE0931F47"
+			tasks: [{
+				id: "6DA950990B09019F"
+				type: "item"
+				item: "botania:orechid"
+			}]
+		}
+		{
+			title: "Attention, hot!"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Burn something with an endoflame to generate mana."
+			description: ["What can i do with that mana? Read the chapter \"Mana Manipulation\" in your book."]
+			dependencies: ["71AB0633FD9368D3"]
+			id: "1678A3E8B861E736"
+			tasks: [{
+				id: "4DB0EF3C41D1ABC2"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+		}
+		{
+			title: "Magical Basics of Technology"
+			x: 3.5d
+			y: -0.5d
+			subtitle: "Create Ores with an Orechid."
+			description: ["The Orechid requires Stone and a Mana Pool with mana in order to work."]
+			dependencies: [
+				"21E3B83BE0931F47"
+				"1678A3E8B861E736"
+			]
+			id: "0A26C5A149A54276"
+			tasks: [{
+				id: "3401A890AE00738F"
+				type: "item"
+				title: "Any #c:raw_materials"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			title: "Why is it not botanical?"
+			x: 7.5d
+			y: -0.5d
+			subtitle: "Craft an Alchemy Catalyst."
+			description: ["Get an Iron Sheet first!"]
+			dependencies: ["03755D15AEB6D559"]
+			id: "2624F6928ECB0BC9"
+			tasks: [{
+				id: "24FCEDF5D21E1B57"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+		}
+		{
+			title: "The most alloyable stone ever."
+			x: 5.5d
+			y: -0.5d
+			subtitle: "Get Andesite by throwing Stone into a Mana Pool."
+			description: ["Unlocks the Engineering Tab."]
+			dependencies: ["0A26C5A149A54276"]
+			id: "6C9A145753DC5469"
+			tasks: [{
+				id: "369987BB7530F3E7"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			title: "It's Halloween!"
+			x: 9.5d
+			y: -0.5d
+			subtitle: "Make Pumkin Seeds by throwing a seed into a Mana Pool with Alchemy Catalyst until you're happy."
+			dependencies: [
+				"2624F6928ECB0BC9"
+				"7106AB70757DDB2E"
+			]
+			id: "514D53D27FFC3870"
+			tasks: [{
+				id: "7325E17BD19D3A82"
+				type: "item"
+				item: "minecraft:pumpkin"
+			}]
+		}
+		{
+			title: "What a scary costume!"
+			x: 11.5d
+			y: -0.5d
+			subtitle: "Make a Blaze by placing a Fel Pumpkin on top of two Iron Bars."
+			dependencies: [
+				"514D53D27FFC3870"
+				"7106AB70757DDB2E"
+			]
+			id: "182A3E1677F69E38"
+			tasks: [{
+				id: "63B93991530B49BE"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			title: "Finally!"
+			x: 13.5d
+			y: -0.5d
+			subtitle: "Make Lava by placing a Blaze Mesh next to a Pure Daisy."
+			dependencies: ["182A3E1677F69E38"]
+			id: "5046BBB5AE7FBD2A"
+			tasks: [{
+				id: "63CF83D60F719FB6"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

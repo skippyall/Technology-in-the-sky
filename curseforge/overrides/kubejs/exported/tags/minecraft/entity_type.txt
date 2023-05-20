@@ -1,0 +1,156 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 15, 2023, 4:45:10 PM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned (from Default)
+- minecraft:guardian (from Default)
+- minecraft:elder_guardian (from Default)
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray (from Default)
+- minecraft:polar_bear (from Default)
+- minecraft:snow_golem (from Default)
+- minecraft:wither (from Default)
+
+#botania:cocoon/common_aquatic
+- minecraft:cod (from Botania)
+- minecraft:salmon (from Botania)
+- minecraft:tropical_fish (from Botania)
+- minecraft:pufferfish (from Botania)
+- minecraft:squid (from Botania)
+- minecraft:frog (from Botania)
+- quark:crab? (from Botania)
+
+#minecraft:impact_projectiles
+- #minecraft:arrows (from Default)
+- minecraft:snowball (from Default)
+- minecraft:fireball (from Default)
+- minecraft:small_fireball (from Default)
+- minecraft:egg (from Default)
+- minecraft:trident (from Default)
+- minecraft:dragon_fireball (from Default)
+- minecraft:wither_skull (from Default)
+
+#botania:cocoon/common
+- minecraft:pig (from Botania)
+- minecraft:cow (from Botania)
+- minecraft:chicken (from Botania)
+- minecraft:rabbit (from Botania)
+- minecraft:sheep (from Botania)
+
+#minecraft:beehive_inhabitors
+- minecraft:bee (from Default)
+
+#c:boats
+- minecraft:boat (from Fabric Convention Tags)
+- minecraft:chest_boat (from Fabric Convention Tags)
+
+#minecraft:skeletons
+- minecraft:skeleton (from Default)
+- minecraft:stray (from Default)
+- minecraft:wither_skeleton (from Default)
+
+#ftbquests:no_loot_crates
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin (from Botania)
+- minecraft:glow_squid (from Botania)
+- minecraft:axolotl (from Botania)
+
+#minecraft:arrows
+- minecraft:arrow (from Default)
+- minecraft:spectral_arrow (from Default)
+
+#minecraft:frog_food
+- minecraft:slime (from Default)
+- minecraft:magma_cube (from Default)
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider (from Default)
+- minecraft:blaze (from Default)
+- minecraft:magma_cube (from Default)
+
+#botania:cocoon/rare
+- minecraft:horse (from Botania)
+- minecraft:donkey (from Botania)
+- minecraft:wolf (from Botania)
+- minecraft:ocelot (from Botania)
+- minecraft:cat (from Botania)
+- minecraft:parrot (from Botania)
+- minecraft:llama (from Botania)
+- minecraft:fox (from Botania)
+- minecraft:panda (from Botania)
+- minecraft:turtle (from Botania)
+- minecraft:goat (from Botania)
+- quark:frog? (from Botania)
+
+#c:bosses
+- botania:doppleganger (from Botania)
+- minecraft:ender_dragon (from Fabric Convention Tags)
+- minecraft:wither (from Fabric Convention Tags)
+- minecraft:ender_dragon (from Porting Lib Tags)
+- minecraft:wither (from Porting Lib Tags)
+
+#farmersdelight:horse_feed_users
+- minecraft:horse (from Farmer's Delight)
+- minecraft:skeleton_horse (from Farmer's Delight)
+- minecraft:zombie_horse (from Farmer's Delight)
+- minecraft:donkey (from Farmer's Delight)
+- minecraft:mule (from Farmer's Delight)
+- minecraft:llama (from Farmer's Delight)
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon (from Botania)
+- minecraft:wither (from Botania)
+- minecraft:item_frame (from Botania)
+- minecraft:glow_item_frame (from Botania)
+- minecraft:end_crystal (from Botania)
+- minecraft:painting (from Botania)
+- minecraft:command_block_minecart (from Botania)
+- minecraft:marker (from Botania)
+- minecraft:area_effect_cloud (from Botania)
+- minecraft:evoker_fangs (from Botania)
+- minecraft:leash_knot (from Botania)
+- botania:corporea_spark (from Botania)
+- botania:doppleganger (from Botania)
+- botania:flame_ring (from Botania)
+- botania:magic_landmine (from Botania)
+- botania:magic_missile (from Botania)
+- botania:mana_burst (from Botania)
+- botania:pink_wither (from Botania)
+- botania:spark (from Botania)
+- botania:player_mover (from Botania)
+
+#minecraft:raiders
+- minecraft:evoker (from Default)
+- minecraft:pillager (from Default)
+- minecraft:ravager (from Default)
+- minecraft:vindicator (from Default)
+- minecraft:illusioner (from Default)
+- minecraft:witch (from Default)
+
+#c:minecarts
+- minecraft:minecart (from Fabric Convention Tags)
+- minecraft:tnt_minecart (from Fabric Convention Tags)
+- minecraft:chest_minecart (from Fabric Convention Tags)
+- minecraft:furnace_minecart (from Fabric Convention Tags)
+- minecraft:command_block_minecart (from Fabric Convention Tags)
+- minecraft:hopper_minecart (from Fabric Convention Tags)
+- minecraft:spawner_minecart (from Fabric Convention Tags)
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit (from Default)
+- minecraft:endermite (from Default)
+- minecraft:silverfish (from Default)
+- minecraft:fox (from Default)
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish (from Default)
+- minecraft:pufferfish (from Default)
+- minecraft:salmon (from Default)
+- minecraft:cod (from Default)
+- minecraft:squid (from Default)
+- minecraft:glow_squid (from Default)
+- minecraft:tadpole (from Default)
+
+#farmersdelight:dog_food_users
+- minecraft:wolf (from Farmer's Delight)

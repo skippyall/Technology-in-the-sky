@@ -1,0 +1,94 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				bee = true
+				egg = true
+				arrow = true
+				cow = true
+				pig = true
+				skeleton = true
+				bat = true
+				armor_stand = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				turtle = true
+				salmon = true
+				wandering_trader = true
+				wither_skeleton = true
+				item_frame = true
+				horse = true
+				phantom = true
+				minecart = true
+				llama_spit = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				lightning_bolt = true
+				creeper = true
+				enderman = true
+				chicken = true
+				trader_llama = true
+				donkey = true
+				tropical_fish = true
+				slime = true
+				zombified_piglin = true
+				area_effect_cloud = true
+				piglin = true
+				blaze = true
+				zombie = true
+				ender_pearl = true
+				sheep = true
+				player = true
+				potion = true
+				wither_skull = true
+				wolf = true
+				villager = true
+				skeleton_horse = true
+				zombie_villager = true
+				boat = true
+				small_fireball = true
+				strider = true
+				cod = true
+				witch = true
+				spider = true
+				wither = true
+
+			[light_sources.settings.entities.botania]
+				pixie = true
+				mana_burst = true
+				spark = true
+				magic_missile = true
+				doppleganger = true
+				magic_landmine = true
+				babylon_weapon = true
+
+			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				stationary_contraption = true
+				contraption = true
+				gantry_contraption = true
+				super_glue = true
+

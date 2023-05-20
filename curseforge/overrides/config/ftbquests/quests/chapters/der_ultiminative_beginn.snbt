@@ -1,0 +1,151 @@
+{
+	id: "4DC80FE141228DD2"
+	group: ""
+	order_index: 0
+	filename: "der_ultiminative_beginn"
+	title: "It starts with..."
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The ultimate beginning"
+			icon: "minecraft:oak_sapling"
+			x: -7.0d
+			y: -4.0d
+			subtitle: "Begin the game!"
+			description: [""]
+			id: "20535B8762357322"
+			tasks: [{
+				id: "45167D1394072420"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+		}
+		{
+			title: "Classical"
+			x: -5.0d
+			y: -4.0d
+			subtitle: "Craft a Crafting Table."
+			dependencies: ["20535B8762357322"]
+			id: "7F062BD9CDB879D5"
+			tasks: [{
+				id: "12BD1C8EAE283E5D"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			title: "The petrified Oak Slab"
+			x: -3.0d
+			y: -5.5d
+			subtitle: "Petrify four Oak Slabs in a Crafting Table."
+			description: ["Once upon a time Oak Slabs behaved just like Stone Slabs."]
+			dependencies: ["7F062BD9CDB879D5"]
+			id: "79987033F3FDDFE9"
+			tasks: [{
+				id: "73DD6274935EAD9F"
+				type: "item"
+				item: "minecraft:petrified_oak_slab"
+			}]
+		}
+		{
+			title: "It's not mythical enough!"
+			x: -3.0d
+			y: -4.0d
+			subtitle: "Craft Floral Fertilizer."
+			dependencies: ["7F062BD9CDB879D5"]
+			id: "7308B7A2C741278F"
+			tasks: [{
+				id: "55C7517DD901BC1D"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+		}
+		{
+			title: "I didn't say nothing."
+			x: -1.0d
+			y: -4.0d
+			subtitle: "Use Flower Fertilizer and observe the result"
+			description: ["Opens Botany Tab."]
+			dependencies: ["7308B7A2C741278F"]
+			id: "51833F1F29BECAC5"
+			tasks: [{
+				id: "1686C613B42A83BF"
+				type: "item"
+				title: "Any #botania:mystical_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2643A4829048C2EB"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+		}
+		{
+			title: "Food!"
+			x: -5.0d
+			y: -5.5d
+			subtitle: "Get Food!"
+			dependencies: ["20535B8762357322"]
+			id: "61244F843F41BEC4"
+			tasks: [{
+				id: "05DE771DE461E72D"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+			rewards: [{
+				id: "4589467A2270355B"
+				type: "item"
+				item: "create:honeyed_apple"
+				count: 32
+			}]
+		}
+		{
+			title: "Stone Age"
+			x: 1.0d
+			y: -5.5d
+			subtitle: "Craft the slabs back to blocks."
+			dependencies: ["36EFC4DC28EDFC51"]
+			id: "460398DC1A7122E0"
+			tasks: [{
+				id: "5E0B10121DC92500"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			title: "Zombies are dumb!"
+			x: -5.0d
+			y: -2.5d
+			subtitle: "Kill a Zombie to get Ice."
+			dependencies: ["20535B8762357322"]
+			id: "186EDC338B1E6541"
+			tasks: [{
+				id: "57BF24B8C6DF5892"
+				type: "item"
+				item: "minecraft:ice"
+			}]
+		}
+		{
+			title: "It's just the colour!"
+			x: -1.0d
+			y: -5.5d
+			subtitle: "Dye the petrified slabs."
+			dependencies: ["79987033F3FDDFE9"]
+			id: "36EFC4DC28EDFC51"
+			tasks: [{
+				id: "502F72ADABE737AA"
+				type: "item"
+				item: "minecraft:cobblestone_slab"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

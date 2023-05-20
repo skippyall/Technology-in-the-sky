@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L  ",
+    "LL ",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:birch_logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_stairs",
+    "count": 16
+  }
+}

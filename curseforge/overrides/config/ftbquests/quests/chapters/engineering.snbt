@@ -1,0 +1,458 @@
+{
+	id: "64AE8FEBBDE287F1"
+	group: ""
+	order_index: 2
+	filename: "engineering"
+	title: "Engineering"
+	icon: "create:large_cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Alloyed Stone"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Craft Andesite Alloy."
+			description: ["Learn more about a Create item by hovering over it holding w."]
+			dependencies: ["6C9A145753DC5469"]
+			id: "59886C00EDE5FD2D"
+			tasks: [{
+				id: "009385A1604AF54D"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Craft a Water Wheel to supply yourself with rotation."
+			dependencies: ["59886C00EDE5FD2D"]
+			id: "369920F94D37E3A1"
+			tasks: [{
+				id: "142267D2CB98359C"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			title: "Pressing it!"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Press an Iron Ingot by dropping it under a Mechanical Press."
+			description: ["The Press needs to spin."]
+			dependencies: ["369920F94D37E3A1"]
+			id: "03755D15AEB6D559"
+			tasks: [{
+				id: "237C46A60B06E9B7"
+				type: "item"
+				item: "create:iron_sheet"
+			}]
+		}
+		{
+			title: "Is it blowing or sucking?"
+			x: 4.0d
+			y: -4.0d
+			subtitle: "This Furnace is more efficient!"
+			description: ["It can process things by blowing through different blocks. It can also push entities. Excellent for mob farms."]
+			dependencies: ["0F22F2D16A161397"]
+			id: "2A523644B5F889B1"
+			tasks: [{
+				id: "26E2CE82A5A1921D"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			title: "The ultimate kitchen helper"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Craft a Mechanical Mixer and a Basin."
+			description: ["It can be powered by a Blaze Burner under it to mix even more!"]
+			dependencies: ["03755D15AEB6D559"]
+			id: "3AF4AD165E4DB6C3"
+			tasks: [
+				{
+					id: "46CB1D1F1456D5AD"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "2AB454C6B9DAB3BA"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			title: "Spinning even more!"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Use Shafts to transfer rotation."
+			dependencies: ["59886C00EDE5FD2D"]
+			id: "78D658063B073109"
+			tasks: [{
+				id: "1DC173B4B30803A9"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			title: "Relaying it"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Cogwheels relay your power."
+			dependencies: ["78D658063B073109"]
+			id: "7A244C6721E27889"
+			tasks: [{
+				id: "1087835E45C61CBF"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+		}
+		{
+			title: "Faster!"
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Large Cogwheels accelerate the process."
+			dependencies: ["78D658063B073109"]
+			id: "31893F843AA121DA"
+			tasks: [{
+				id: "11C0324A97D9526A"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+		}
+		{
+			title: "I want to go sideways!"
+			x: -0.5d
+			y: 1.5d
+			subtitle: "Chain Drives move rotation sideways."
+			dependencies: ["78D658063B073109"]
+			id: "045082867500679A"
+			tasks: [{
+				id: "08012A777E5A3A1C"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+		}
+		{
+			title: "This way, rotation!"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Gearboxes turn rotation the way you want! Also exist vertically."
+			dependencies: ["78D658063B073109"]
+			id: "20F9F370645AA6D1"
+			tasks: [{
+				id: "2F3C3D5B0588B795"
+				type: "item"
+				item: "create:gearbox"
+			}]
+		}
+		{
+			title: "What direction, Redstone?"
+			x: -3.5d
+			y: 1.5d
+			subtitle: "Gearshifts relay rotation only when powered."
+			dependencies: ["78D658063B073109"]
+			id: "5A0FE55380FC460B"
+			tasks: [{
+				id: "352BBFAB8F1DE3DE"
+				type: "item"
+				item: "create:gearshift"
+			}]
+		}
+		{
+			title: "Am I allowed to rotate?"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Clutches turn anything behind them off when powered."
+			dependencies: ["78D658063B073109"]
+			id: "39F910E69FB00E5C"
+			tasks: [{
+				id: "20505ABAF6AE0CE5"
+				type: "item"
+				item: "create:clutch"
+			}]
+		}
+		{
+			title: "I'm just decoration!"
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["78D658063B073109"]
+			id: "221D4B76D4CF4BF3"
+			tasks: [{
+				id: "50B0101D13729A4C"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			title: "Rotation in your hands"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Rotate anything with a Wrench."
+			dependencies: ["03755D15AEB6D559"]
+			id: "41A03516C690BE3A"
+			tasks: [{
+				id: "265F538CDBFDB540"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			title: "I can't read without my glasses!"
+			x: 4.0d
+			y: 4.0d
+			subtitle: "Craft glasses to read everything."
+			dependencies: [
+				"41A03516C690BE3A"
+				"03755D15AEB6D559"
+			]
+			id: "3AAF2656B9629110"
+			tasks: [{
+				id: "0321BBFDAFEF757E"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			title: "Transport with factory look"
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Don't use Hoppers, use Belts."
+			description: ["Belts transport items and other entities with them. Items can be processed on the way."]
+			dependencies: ["03755D15AEB6D559"]
+			id: "0F22F2D16A161397"
+			tasks: [{
+				id: "30C108412354DC61"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			title: "And down it goes"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Chutes can transfer items downwards (and upwards when you blow inside)"
+			dependencies: ["0F22F2D16A161397"]
+			id: "38740793982C3843"
+			tasks: [{
+				id: "0538CA374B17578C"
+				type: "item"
+				item: "create:chute"
+			}]
+		}
+		{
+			title: "Funnels it in and out"
+			x: 6.0d
+			y: -2.0d
+			subtitle: "Funnels take items from Belts and put them into containers."
+			dependencies: ["0F22F2D16A161397"]
+			id: "33BD24F6F452473B"
+			tasks: [{
+				id: "5E9584B26B6208AB"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			title: "Your new friend"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Capture a Blaze in an Empty Blaze Burner and make a new friend."
+			dependencies: ["2BE0BA9D146904F0"]
+			id: "7106AB70757DDB2E"
+			tasks: [{
+				id: "494826CAEAF241B7"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			title: "The better alloy"
+			x: 12.0d
+			y: 0.0d
+			subtitle: "Make Brass with your new friend (it needs fuel for that)"
+			dependencies: ["7106AB70757DDB2E"]
+			id: "74A689C850F91913"
+			tasks: [{
+				id: "5219AE14CA8399F8"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			title: "The soft variant"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "Make Netherrack by mixing Lava and Cobblestone"
+			id: "2BE0BA9D146904F0"
+			tasks: [{
+				id: "329CC97F7863822A"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			title: "Place it!"
+			x: 16.0d
+			y: 0.0d
+			subtitle: "Use Deployers to perform right and left click actions."
+			description: [
+				"Use a wrench to toggle between right and left clicks."
+				"The Quartz can be obtained by washing Soul Sand."
+			]
+			dependencies: ["3C2FE04E361BA750"]
+			id: "0FAE05993916B8B2"
+			tasks: [{
+				id: "3E73A984CB42A7C8"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			title: "What should I funnel?"
+			x: 12.0d
+			y: -2.0d
+			dependencies: ["74A689C850F91913"]
+			id: "6789526B1EA83293"
+			tasks: [{
+				id: "48DBDE289D68CD3C"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+		}
+		{
+			title: "The funnel's brother"
+			x: 5.5d
+			y: -3.5d
+			subtitle: "Tunnel items through walls!"
+			dependencies: ["0F22F2D16A161397"]
+			id: "0C2C179B9D51E589"
+			tasks: [{
+				id: "7E63264161097F2B"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+		}
+		{
+			title: "It's me!"
+			x: 2.5d
+			y: -3.5d
+			subtitle: "Replace the player at the cobble generator with a drill!"
+			dependencies: ["0F22F2D16A161397"]
+			id: "05C2AE396152F0C3"
+			tasks: [{
+				id: "5AF4472A2360C2D1"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			title: "For more equality!"
+			x: 10.5d
+			y: -1.5d
+			subtitle: "Split and filter items with the Tunnel."
+			dependencies: ["74A689C850F91913"]
+			id: "4E15BC409F06233C"
+			tasks: [{
+				id: "0E92321F1B5C6922"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+		}
+		{
+			title: "Spoooky!"
+			x: 14.0d
+			y: 0.0d
+			subtitle: "Craft a Soul Campfire to haunt Sand to Soul Sand with your fan."
+			dependencies: ["74A689C850F91913"]
+			id: "3C2FE04E361BA750"
+			tasks: [{
+				id: "32BE022D56D32E81"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+		}
+		{
+			title: "Even more goes down"
+			x: 13.5d
+			y: -1.5d
+			subtitle: "Upgrade a chute to filter items and to make even more items fall."
+			dependencies: ["74A689C850F91913"]
+			id: "2BFD3E6DFB429CF9"
+			tasks: [{
+				id: "5D6D65D15307FA87"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+		}
+		{
+			title: "The tongue twister"
+			x: 18.0d
+			y: 0.0d
+			subtitle: "Make a Precision Mechanism with your new Deployer."
+			description: ["Unlocks the Runic Altar in Botany and the Computing tab."]
+			dependencies: ["0FAE05993916B8B2"]
+			id: "0342CC62568D2B26"
+			tasks: [{
+				id: "4D8A7FC5BD0F4ED9"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			title: "Here you are!"
+			x: 18.0d
+			y: -2.0d
+			subtitle: "Use arms to transfer items on short distances."
+			dependencies: ["0342CC62568D2B26"]
+			id: "2D858645EA0060D1"
+			tasks: [{
+				id: "1E653A0C0003ED98"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			title: "Don't cheat, engineers!"
+			x: 18.0d
+			y: 2.0d
+			subtitle: "Control speed with Rotation Speed Controllers"
+			dependencies: ["0342CC62568D2B26"]
+			id: "5ED54048D47EB7A6"
+			tasks: [{
+				id: "57BC44F5073E1D84"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+		}
+		{
+			title: "Fancier Crafting!"
+			x: 14.0d
+			y: 2.0d
+			subtitle: "Craft automatically with Mechanical Crafters."
+			dependencies: ["3C2FE04E361BA750"]
+			id: "2C71E84A47348B22"
+			tasks: [{
+				id: "383AE4A257874B5A"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			title: "Keep out! Danger zone"
+			x: 14.0d
+			y: 4.0d
+			subtitle: "Crush with Crushing Wheels, but don't crush yourself!"
+			dependencies: ["2C71E84A47348B22"]
+			id: "55D38B1CE2B3B90C"
+			tasks: [{
+				id: "612B3A57BD7BB422"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

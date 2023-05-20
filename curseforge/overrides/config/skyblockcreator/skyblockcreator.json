@@ -1,0 +1,34 @@
+{
+  "structureWorldConfigs": [
+    {
+      "structureIdentifier": "skyblock",
+      "biomeIdentifier": "minecraft:plains",
+      "structureOffset": [
+        -2,
+        0,
+        -2
+      ],
+      "playerSpawnOffset": [
+        0,
+        2,
+        2
+      ],
+      "theNether": {
+        "voidMode": true
+      },
+      "theEnd": {
+        "voidMode": true
+      },
+      "overridingDefault": true,
+      "fillmentBlockIdentifier": "minecraft:air",
+      "topBedrockEnabled": false,
+      "bottomBedrockEnabled": false,
+      "isBedrockFlat": false
+    }
+  ],
+  "createPlatformPermissionLevel": 0,
+  "teleportToPlatformPermissionLevel": 2,
+  "platformDistanceRadius": 50,
+  "commandName": "island",
+  "commandAlias": "is"
+}

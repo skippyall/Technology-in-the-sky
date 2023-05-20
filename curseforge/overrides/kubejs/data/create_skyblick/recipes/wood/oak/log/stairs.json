@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L  ",
+    "LL ",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:oak_logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_stairs",
+    "count": 16
+  }
+}

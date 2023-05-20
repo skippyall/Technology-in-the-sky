@@ -1,0 +1,354 @@
+{
+	id: "20B883AC94A87F08"
+	group: ""
+	order_index: 3
+	filename: "computing"
+	title: "Computing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Computing for you!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Craft a Computer to automate thinking!"
+			description: ["All Computers need to be programmed to do something. Documentation on https://tweaked.cc/"]
+			dependencies: ["0342CC62568D2B26"]
+			id: "17BC7F350ADEECEF"
+			tasks: [{
+				id: "4C1CD996BBB9A57A"
+				type: "item"
+				item: "computercraft:computer_normal"
+			}]
+		}
+		{
+			title: "The flat Computer"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Make a Computer handier by pressing it."
+			description: ["Can be merged with other things in a crafting table."]
+			dependencies: ["17BC7F350ADEECEF"]
+			id: "3576E8C6AE1C6077"
+			tasks: [{
+				id: "3D4BF91060FF584C"
+				type: "item"
+				item: "computercraft:pocket_computer_normal"
+			}]
+		}
+		{
+			title: "Colourful computing!"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Craft an Advanced Computer for colours and multithreading."
+			dependencies: ["17BC7F350ADEECEF"]
+			id: "555073B9D6B31761"
+			tasks: [{
+				id: "2CA025C545B0A31B"
+				type: "item"
+				item: "computercraft:computer_advanced"
+			}]
+		}
+		{
+			title: "The handiest"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Also upgrade your mobile!"
+			description: ["All Pocket Computers also have an upgraded variant."]
+			dependencies: [
+				"3576E8C6AE1C6077"
+				"555073B9D6B31761"
+			]
+			id: "565B415F4C430862"
+			tasks: [{
+				id: "404DA5C6A8C7E3D0"
+				type: "item"
+				item: "computercraft:pocket_computer_advanced"
+			}]
+		}
+		{
+			title: "Drones!"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Craft a Turtle to interact with the world."
+			dependencies: ["17BC7F350ADEECEF"]
+			id: "004A2EBC3FBE628A"
+			tasks: [{
+				id: "0978CA40F7FED041"
+				type: "item"
+				item: "computercraft:turtle_normal"
+			}]
+		}
+		{
+			title: "The more colourful, the better!"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Also upgrade your drones (why?)"
+			description: ["All Turtles also have an advanced variant."]
+			dependencies: [
+				"004A2EBC3FBE628A"
+				"555073B9D6B31761"
+			]
+			id: "04D37C036A9B5EC4"
+			tasks: [{
+				id: "60F76F00CC290469"
+				type: "item"
+				item: "computercraft:turtle_advanced"
+			}]
+		}
+		{
+			title: "Drill on board"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Craft a Mining Turtle to obtain blocks with the Turtle that normally are mined with a pickaxe."
+			description: ["Same for Digging Turtle, Felling Turtle and Farming Turtle."]
+			dependencies: ["004A2EBC3FBE628A"]
+			id: "7A7560DA2DB5FDF7"
+			tasks: [{
+				id: "52860BDF9C1D5662"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "minecraft:diamond_pickaxe"
+					}
+				}
+			}]
+		}
+		{
+			title: "Remote controlled"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Controll your Wireless Turtle from far away."
+			description: ["See the Ender Turtle for unlimited range."]
+			dependencies: ["004A2EBC3FBE628A"]
+			id: "54C55D6C0713C8C9"
+			tasks: [{
+				id: "6560A28C2CBB8B9B"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "computercraft:wireless_modem_normal"
+					}
+				}
+			}]
+		}
+		{
+			title: "Attention, please!"
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Use Noisy Turtles to make them speak!"
+			dependencies: ["004A2EBC3FBE628A"]
+			id: "09F419483CC94C20"
+			tasks: [{
+				id: "55F13DF010D90C9F"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "computercraft:speaker"
+					}
+				}
+			}]
+		}
+		{
+			title: "My computer army"
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Kill Mobs with Melee Turtles."
+			dependencies: ["004A2EBC3FBE628A"]
+			id: "63C6EDF65A763A91"
+			tasks: [{
+				id: "6B781224AE46A442"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "minecraft:diamond_sword"
+					}
+				}
+			}]
+		}
+		{
+			title: "Auto crafting computer controlled"
+			x: 1.5d
+			y: -3.5d
+			subtitle: "Use a Crafty Turtle to craft items automatycally."
+			dependencies: ["004A2EBC3FBE628A"]
+			id: "08B9939C246CCA21"
+			tasks: [{
+				id: "65B171A1072A64F4"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "minecraft:crafting_table"
+					}
+				}
+			}]
+		}
+		{
+			title: "Ring ring ring!"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Make your mobile hearable with a Speaker."
+			dependencies: ["3576E8C6AE1C6077"]
+			id: "2331174786E87836"
+			tasks: [{
+				id: "365A2E82C0372E7C"
+				type: "item"
+				item: {
+					id: "computercraft:pocket_computer_normal"
+					Count: 1b
+					tag: {
+						Upgrade: "computercraft:speaker"
+					}
+				}
+			}]
+		}
+		{
+			title: "Finally LTE Support!"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Connect your Wireless Pocket Computer to the network."
+			description: ["For unlimited range use Ender Pocket Computers."]
+			dependencies: ["3576E8C6AE1C6077"]
+			id: "219F705569C2AC61"
+			tasks: [{
+				id: "37A283F2A102C89E"
+				type: "item"
+				item: {
+					id: "computercraft:pocket_computer_normal"
+					Count: 1b
+					tag: {
+						Upgrade: "computercraft:wireless_modem_normal"
+					}
+				}
+			}]
+		}
+		{
+			title: "What an amazing invention!"
+			x: -4.0d
+			y: 1.0d
+			subtitle: "Use Wired Modems and Networking Cables to connect Computers to Peripherals."
+			dependencies: ["17BC7F350ADEECEF"]
+			id: "1ED988A656AAC2D8"
+			tasks: [{
+				id: "0D6D2D41129F54A9"
+				type: "item"
+				item: "computercraft:wired_modem_full"
+			}]
+		}
+		{
+			title: "Speak out!"
+			x: -4.0d
+			y: 3.0d
+			subtitle: "Use Speakers to play sounds."
+			description: ["Attention, very complicated."]
+			dependencies: ["1ED988A656AAC2D8"]
+			id: "229C77761DF667CD"
+			tasks: [{
+				id: "79D33F10EF50803C"
+				type: "item"
+				item: "computercraft:speaker"
+			}]
+		}
+		{
+			title: "No more writing!"
+			x: -4.0d
+			y: -1.0d
+			subtitle: "Print your messages instead of writing them!"
+			dependencies: ["1ED988A656AAC2D8"]
+			id: "211700A4C93E4DF5"
+			tasks: [{
+				id: "25E83613754F31E0"
+				type: "item"
+				item: "computercraft:printer"
+			}]
+		}
+		{
+			title: "USB isn't invented yet!"
+			x: -3.0d
+			y: -0.5d
+			subtitle: "Use disk drives to store information externally."
+			dependencies: ["1ED988A656AAC2D8"]
+			id: "1EC8A6EB230ADA16"
+			tasks: [{
+				id: "57459368109EFF86"
+				type: "item"
+				item: "computercraft:disk_drive"
+			}]
+		}
+		{
+			title: "What number?"
+			x: -5.0d
+			y: -0.5d
+			subtitle: "Use Scroller Panes as peripherals to read and write numbers"
+			dependencies: ["1ED988A656AAC2D8"]
+			id: "606625DA5D047B55"
+			tasks: [{
+				id: "074CFAF14E9F627F"
+				type: "item"
+				item: "cccbridge:scroller_block"
+			}]
+		}
+		{
+			title: "Computer to Mechanic"
+			x: -5.0d
+			y: 2.5d
+			subtitle: "Use Source Blocks as peripherals to write information from Computers on Display Boards."
+			dependencies: ["1ED988A656AAC2D8"]
+			id: "7D9A0F948AFDBC3D"
+			tasks: [{
+				id: "4241C184DAC323D6"
+				type: "item"
+				item: "cccbridge:source_block"
+			}]
+		}
+		{
+			title: "Not the one from Minecraft!"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Use Target Blocks to get information from Display Links."
+			dependencies: ["1ED988A656AAC2D8"]
+			id: "6557F5ADF2FE2771"
+			tasks: [{
+				id: "674B874B1F863175"
+				type: "item"
+				item: "cccbridge:target_block"
+			}]
+		}
+		{
+			title: "I don't have space for wires!"
+			x: -6.5d
+			y: 1.0d
+			subtitle: "Transmit Signals with Wireless Modems too"
+			dependencies: ["1ED988A656AAC2D8"]
+			id: "0564E99096F363CC"
+			tasks: [{
+				id: "4179626FE879723A"
+				type: "item"
+				item: "computercraft:wireless_modem_normal"
+			}]
+		}
+		{
+			title: "It's not the Quantum Bridge"
+			x: -9.0d
+			y: 1.0d
+			subtitle: "Use Ender Modems to transmit messages on unlimited distances!"
+			dependencies: ["0564E99096F363CC"]
+			id: "12A260E6BA0CB37D"
+			tasks: [{
+				id: "06FFF9953161F636"
+				type: "item"
+				item: "computercraft:wireless_modem_advanced"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

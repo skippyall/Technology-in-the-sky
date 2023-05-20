@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:oak_logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_slab",
+    "count": 24
+  }
+}

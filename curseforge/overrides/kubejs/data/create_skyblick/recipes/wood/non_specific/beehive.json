@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "HHH",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "H": {
+      "item": "minecraft:honeycomb_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:beehive",
+    "count": 4
+  }
+}

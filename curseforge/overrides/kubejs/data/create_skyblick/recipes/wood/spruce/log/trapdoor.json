@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:spruce_logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_trapdoor",
+    "count": 8
+  }
+}
